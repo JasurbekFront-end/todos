@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Generator.css">
+</head>
+<body>
+    <div class="konta">
+        <h2>Pasword Generator</h2>
+        <div class="display">
+            <p>Hklmwdk89^&Hjhd</p>
+        <img src="Images/settings.jpg" alt="settings">
+        </div>
+        <ul>
+            <li><input type="checkbox" id="uppercase" checked>
+                <label for="uppercase">Uppercase</label>
+            </li>
+            <li>
+                <input type="checkbox" id="lowercase" checked>
+                <label for="lowercase">Lowercase</label>
+            </li>
+            <li>
+                <input type="checkbox" id="numbers" checked>
+                <label for="numbers">Numbers</label>
+            </li>
+            <li>
+                <input type="checkbox" id="symbols" checked>
+                <label for="symbols">Symbols</label>
+            </li>
+        </ul>
+        <label for="pasword_length" id="pasword_length">Password Length</label>
+        <div class="flex">
+            <input type="range" min="6" max="36" value="12" class="pasword_length">
+            <p class="length">12</p>
+        </div>
+        <button>Generate Password</button>
+    </div>
+
+   <script src="Generator.js"></script>
+</body>
+</html>
